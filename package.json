@@ -1,0 +1,14 @@
+{
+  "name": "github-health-checker",
+  "scripts": {
+    "build": "browserify src/index.js -o dist/bundle.js"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "browserify": "^16.5.2",
+    "request": "^2.88.2"
+  }
+}
